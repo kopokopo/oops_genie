@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'oops_genie'
   spec.version     = OopsGenie::VERSION
   spec.authors     = ['dondeng']
-  spec.email       = ['dondeng@gmail.com']
+  spec.email       = ['dondeng2@gmail.com']
   spec.homepage    = 'https://github.com/dondeng/oops_genie'
   spec.summary     = 'Integration to OpsGenie API'
   spec.description = 'Integration to OpsGenie API'
