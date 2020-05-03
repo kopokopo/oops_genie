@@ -1,6 +1,7 @@
 # OopsGenie
-This is a minimal gem than integrated to the OpsGenie API specification
-Right now only OpsGenie Alerts are implemented
+This is a minimal gem that integrates to the OpsGenie API specification.
+Right now only OpsGenie Alerts are implemented. More functionality will follow
+later.
 
 ## Usage
 Create an OopsGenieAlert Object minimally providing your OpsGenie api key and a 
@@ -20,6 +21,18 @@ alert.send_alert
 
 ```
 
+Attributes that can be set on the alert oject are:
+  - api_key
+  - message
+  - alias
+  - actions
+  - tags
+  - details
+  - entity
+  - priority
+  - responders
+
+See the [OpsGenie API](https://docs.opsgenie.com/docs/api-integration) for more information on these.
 ## Installation
 Add this line to your application's Gemfile:
 
