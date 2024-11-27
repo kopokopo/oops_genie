@@ -21,6 +21,18 @@ alert.send_alert
 
 ```
 
+In the host application, ensure there is configuration file in `config/opsgenie.yml` in the format below:
+
+```yaml
+development:
+  endpoint: opsgenie-url
+  api_key: opsgenie-api-key
+
+production:
+  endpoint: opsgenie-url
+  api_key: opsgenie-api-key
+```
+
 Attributes that can be set on the alert oject are:
   - api_key
   - message
