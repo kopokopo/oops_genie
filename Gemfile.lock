@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    oops_genie (1.1.0)
-      json (~> 2.16.0)
+    oops_genie (1.1.1)
+      json (~> 2.19.0)
       rails (>= 6.1.4, < 9.0)
 
 GEM
@@ -101,7 +101,7 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.16.0)
+    json (2.19.9)
     logger (1.7.0)
     loofah (2.24.1)
       crass (~> 1.0.2)
